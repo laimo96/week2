@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ChangeFragment">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/update_event_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/update_event_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CalendarView
+        android:layout_gravity="center"
+        android:id="@+id/update_calender_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Event"/>
+
+
+</LinearLayout>
